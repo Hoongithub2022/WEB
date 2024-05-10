@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
 * {
     margin: 0;
@@ -51,7 +52,14 @@ body {
     margin-left: 50px;
 }
 
-.user button {}
+.user button {
+    border: none;
+    border-radius: 66px;
+    background-color: #0084BC;
+    color: #ffffff;
+    width: 66px;
+    height: 32px;
+}
 
 .slide {
     height: 650px;    
@@ -66,6 +74,22 @@ body {
     text-align: center;
 }
 
+.slide .texts h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.slide .texts h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 96px;
+}
+
+.slide .texts p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 560px;
+}
+
 .slide_arrows {
     position: absolute;
     top: 0;
@@ -76,6 +100,12 @@ body {
 
 .slide_arrows img {
     width: 46px;
+}
+
+.object {
+    position: absolute;
+    top: 30%;
+    right: 200px;
 }
 
 .prev {
@@ -90,4 +120,79 @@ body {
     top: 50%;
     right: 100px;
     transform: translateY(-50%);
+}
+
+.contents {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.contents1_wrap {
+    padding: 62px 30px 135px;
+    display: flex;
+}
+
+.contents1_wrap h1 {
+    font-size: 56px;
+    font-weight: 700;
+    width: 500px;
+}
+.contents1_wrap p {
+    padding: 20px 0 70px ;
+}
+
+.contents1_wrap .btns button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #222222;
+    font-weight: 500;
+    border-radius: 0px;
+    border: none;
+    gap: 20px;
+}
+
+.contents1_wrap .btns button.view {
+    margin-right: 10px;
+}
+
+.content1 {
+    width: 570px;
+    height: 500px;
+}
+
+.banner {
+    margin-left: 30px;
+}
+
+.contents2_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allview {
+    display: flex;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.allview i {
+    margin-left: 10px;
+}
+
+.c2_imgs {
+    padding: 30px 0;
+}
+
+.c2_imgs img:nth-child(2) {
+    margin-left: 26px;
+}
+
+.c2_imgs img:nth-child(4) {
+    width: 570px;
+    height: 320px;
+    margin-left: 26px;
 }
