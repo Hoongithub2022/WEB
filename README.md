@@ -2,13 +2,13 @@
 
 ## 🟩basic-html-css
 
-- Basic 기초 실습
-- Cinema 기초 실습
-- Client 기초 실습
-- Hero 기초 실습
-- Login 기초 실습
-- Member 기초 실습
-- Table 기초 실습
+- Basic 실습
+- Cinema 실습
+- Client 실습
+- Hero 실습
+- Login 실습
+- Member 실습
+- Table 실습
 
 ## 🟩City
 
