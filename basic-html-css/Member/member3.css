@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #444;
+}
+
+.container {
+    width: 1220px;
+    margin: 120px auto;
+}
+
+.header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.header p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.list li {
+     width: 380px;
+     border: solid 1px #dfddea;
+     border-radius: 30px;
+}
+
+.list li .photo {
+     width: 120px;
+     height: 120px;
+     margin: 0 auto;
+     margin-top: 30px;
+}
+
+.list li .photo img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 100%;
+}
+
+.list li .user {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.list li .user .name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.list li .user .role {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.list li .user .info {
+    color: #72717c;
+}
+
+.list li .social {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.list li .social i {
+    width: 36px;
+    height: 36px;
+    background-color: #eee;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

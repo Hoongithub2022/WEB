@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 980px;
+    margin: 30px auto;
+}
+
+.header {
+    display: flex;
+}
+
+.header h3 {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.header span {
+    font-family: 'Roboto', "Noto Sans KR";
+    color: #ED4C6B;
+    font-weight: bold;
+}
+
+.header a {
+    margin-left: auto;
+    text-decoration: none;
+    color: #666666;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header a i {
+    margin-top: 2.8px;
+}
+
+.list {
+    width: 184px;
+    display: flex;
+    gap: 15px;
+}
+
+.list .photo {
+    width: 184px;
+    height: 262.84px;
+}
+
+.list .photo img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.list .movie {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.list .movie p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.list .time p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.list .time p i {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.list .time p span {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 3px;
+}

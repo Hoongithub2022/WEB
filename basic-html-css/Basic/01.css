@@ -1,0 +1,17 @@
+.title {
+    color: orangered;
+}
+
+#title2 {
+    color: aqua;
+}
+
+.text {
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-weight: bold;
+}

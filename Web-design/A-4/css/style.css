@@ -1,0 +1,152 @@
+/* ========== 공통 ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    background-color: #ffffff;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========== 헤더 ========== */
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #298dff;
+    background:#ff5050;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.logo{
+    width:20%;
+    height:100%;
+    display: flex; /*로고 이미지를 중앙에 위치 시키기 위해 flex로 지정하여 수평, 수직 정렬이 되도록 하기 위해.*/
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+
+/* 서브메뉴 */
+.gnb {
+    width:70%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.gnb > li {
+    position: relative;
+}
+
+.gnb > li > a {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 50px;
+}
+
+.gnb .sub {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    background-color: #333333;
+    /* display: none; */
+}
+
+.gnb .sub li a {
+    display: block;
+    padding: 14px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.gnb .sub li a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/* ========== SLIDER 시작 ========== */
+.slider {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font: 40px;
+}
+
+.slide .img {
+    /* display: block; */
+}
+
+.contents {
+    width: 100%;
+    height:200px;
+    padding:0;
+    margin:10px 0;
+    display:flex;
+      justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tab_contents2 {
+
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery li {
+    margin-right: 15px;
+}

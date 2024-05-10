@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    color: #666;
+    line-height: 1.6;
+}
+
+.container {
+    width: 1220px;
+    margin: 120px auto;
+}
+
+.title_wrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_wrap h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.title_wrap p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contents {
+    display: flex;
+    gap: 28px;
+}
+
+.contents li {
+    width: 388px;
+    height: 412px;
+    padding: 50px 40px;
+    border-radius: 24px;
+    border: 1px solid #999;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.contents li .thumb{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+
+.contents li .thumb img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.contents li h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.contents li p {
+    margin-bottom: 30px;
+}
+
+.contents li .user .name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contents li .user .job{
+    font-size: 18px;
+}
+

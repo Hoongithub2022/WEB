@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'YEONGJUSeonbiTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: YEONGJUSeonbiTTF;
+}
+
+body {
+    background-image: url("img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 45px;
+    text-align: center;
+    padding: 50px;
+    color: white
+}
+
+.name {
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contents {
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+
+.contents p {
+    margin: 20px 0;
+    padding: 5px
+}
