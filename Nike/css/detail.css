@@ -1,0 +1,155 @@
+.product {    
+    display: flex;
+    gap: 76px;
+}
+
+.product .slide_container {
+    width: 580px;
+    height: 580px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.product .slide_container .item {
+    width: 580px;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .slide_container .arrows {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    gap: 16px;
+}
+
+.product .slide_container .arrows i {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/* size */
+.infos {
+    width: 524px;
+}
+
+.infos .titles {
+    margin-bottom: 26px;
+}
+
+.infos .titles h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 14px 0 36px;
+}
+
+.infos .titles .size_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos .titles .size_title span {
+    font-weight: 500;
+}
+
+.infos .titles .size_title a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.infos .size {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.infos .size li {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.infos .size li:hover {
+    background-color: #ddd;
+}
+
+.infos .btn {
+    width: 100%;
+}
+
+/* section1 */
+.detail .s1 {
+    display: flex;
+    gap: 20px;
+}
+
+.detail .s1 .item {
+    flex: 1;
+    height: 560px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail .s1 .item:first-child {
+    display: block;
+    background-color: transparent;
+}
+
+.detail .s1 .item:first-child .text_box {
+    padding: 90px 0;
+}
+
+.detail .s1 .item:first-child .text_box h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.detail .s1 .item:first-child .text_box p {
+    line-height: 1.6;
+}
+
+/* section2 */
+.detail .s2 .section_items .item .thumb {
+    width: 280px;
+    height: 280px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.detail .s2 .section_items .item .titles {
+    padding: 20px 0;
+}
+
+.detail .s2 .section_items .item .titles h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.detail .s2 .section_items .item .titles p {
+    font-size: 14px;
+}
