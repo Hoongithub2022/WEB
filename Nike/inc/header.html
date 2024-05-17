@@ -1,29 +1,53 @@
-<div class="header">
-  <div class="bars"><i class="xi-bars"></i></div>
-  <ul class="gnb">
-    <li><a href="#">Women</a></li>
-    <li><a href="#">Man</a></li>
-    <li><a href="#">Kids</a></li>
-    <li><a href="#">Accessories</a></li>
-    <li><a href="#">Sale</a></li>
-  </ul>
-  <div class="logo">
-    <a href="../index.html">
-      <img src="../img/logo.svg" alt="" />
-    </a>
-  </div>
-  <div class="extra">
-    <a href="#"><img src="../img/icon_Research.png" alt="" /></a>
-    <a href="#"><img src="../img/icon_shopping bag.png" alt="" /></a>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sale.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="bars"><i class="xi-bars"></i></div>
+      <ul class="gnb">
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Man</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../img/logo.svg" alt="" />
+        </a>
+      </div>
+      <div class="extra">
+        <a href="#"><img src="../img/icon_Research.png" alt="" /></a>
+        <a href="#"><img src="../img/icon_shopping bag.png" alt="" /></a>
+      </div>
+    </div>
 
-<script>
-  $(function () {
-    $(".bars i").click(function () {
-      $(this).toggleClass("xi-close");
-      $(".bars").toggleClass("on");
-      $(".gnb").toggleClass("on");
-    });
-  });
-</script>
+    <script>
+      $(function () {
+        $(".bars i").click(function () {
+          $(this).toggleClass("xi-close");
+          $(".bars").toggleClass("on");
+          $(".gnb").toggleClass("on");
+        });
+      });
+    </script>
+  </body>
+</html>

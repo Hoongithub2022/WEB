@@ -1,0 +1,262 @@
+/* main-slide */
+.sale_slide {
+  max-width: 1220px;
+  height: 640px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sale_slide .text_box {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.sale_slide .text_box h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.sale_slide .text_box p {
+  margin: 10px 0 40px;
+}
+
+.sale_slide .photo {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  right: -82px;
+}
+
+/* section1 */
+.sale .s1 .section_items .thumb {
+  width: 560px;
+  height: 560px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale .s1 .section_items .item .titles {
+  padding: 20px 0;
+}
+
+.sale .s1 .section_items .item .titles h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sale .s1 .section_items .item .titles p {
+  font-size: 14px;
+}
+
+/* section2 */
+.sale .s2 .section_items .item .thumb {
+  height: 280px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.sale .s2 .section_items .item .titles {
+  padding: 20px 0;
+}
+
+.sale .s2 .section_items .item .titles h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sale .s2 .section_items .item .titles p {
+  font-size: 14px;
+}
+
+/* section3 */
+.sale .s3 {
+  display: flex;
+  gap: 20px;
+}
+
+.sale .s3 .item {
+  flex: 1;
+}
+
+.sale .s3 .item .thumb {
+  height: 360px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.sale .s3 .item .thumb .user {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sale .s3 .item .thumb .user .photo {
+  width: 40px;
+  height: 40px;
+  background-color: #111;
+  border-radius: 100%;
+}
+
+.sale .s3 .item .thumb .user .info .name {
+  font-size: 14px;
+}
+
+.s3 .item .thumb .user .info .job {
+  font-size: 10px;
+}
+
+/* section4 */
+.sale .s4 .section_items {
+  overflow: hidden;
+}
+
+.sale .s4 .section_items .item {
+  width: 380px;
+}
+
+.sale .s4 .section_items .item .thumb {
+  width: 380px;
+  height: 280px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.sale .s4 .section_items .item .titles h4 {
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+/* section5 */
+.sale .s5 {
+  padding: 80px 0 70px;
+  text-align: center;
+}
+
+.sale .s5 .text_box {
+}
+
+.sale .s5 .text_box h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.sale .s5 .text_box p.text {
+  margin: 30px auto 50px;
+  width: 42%;
+}
+
+.sale .s5 .text_box p.m_text {
+  display: none;
+}
+
+.sale .s5 .text_box a.btn {
+  margin: 0 auto;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* sale slide */
+  .sale_slide {
+    height: 580px;
+    margin-top: 60px;
+    overflow: hidden;
+  }
+
+  .sale_slide .text_box {
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+  .sale_slide .text_box h2 {
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+
+  .sale_slide .text_box p {
+    display: none;
+  }
+
+  .sale_slide .photo {
+    right: initial;
+    left: 50%;
+    transform: translate(-50%);
+    width: 130%;
+  }
+
+  .sale_slide .photo img {
+    width: 500px;
+  }
+
+  /* section1 */
+  .sale .s1 {
+    flex-direction: column;
+  }
+
+  .sale .s1 .item {
+    flex: initial;
+    height: 340px;
+    padding: 20px;
+  }
+
+  .sale .s1 .item h3 {
+    font-size: 24px;
+  }
+
+  .sale .s1 .item a {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  /* section3 */
+  .sale .s3 {
+    flex-direction: column;
+  }
+
+  .sale .s3 .item .thumb {
+    height: 210px;
+  }
+
+  /* section5 */
+  .sale .s5 {
+    padding: 60px 0 60px;
+  }
+
+  .sale .s5 .text_box h3 {
+    font-size: 24px;
+  }
+
+  .sale .s5 .text_box p.text {
+    display: none;
+  }
+
+  .sale .s5 .text_box p.m_text {
+    display: block;
+    margin: 34px auto 26px;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .sale .s5 .text_box a.btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+}
