@@ -1,136 +1,268 @@
-.product {    
-    display: flex;
-    gap: 76px;
+.product {
+  display: flex;
+  gap: 76px;
 }
 
 .product .slide_container {
-    width: 580px;
-    height: 580px;
-    background-color: #ddd;
-    position: relative;
+  width: 580px;
+  height: 580px;
+  background-color: #ddd;
+  position: relative;
 }
 
 .product .slide_container .item {
-    width: 580px;
-    height: 580px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 580px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product .slide_container .arrows {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    gap: 16px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  gap: 16px;
 }
 
 .product .slide_container .arrows i {
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    border-radius: 100%;
-    cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 /* size */
 .infos {
-    width: 524px;
+  width: 524px;
 }
 
 .infos .titles {
-    margin-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .infos .titles h3 {
-    font-weight: 700;
-    font-size: 40px;
-    margin: 14px 0 36px;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 14px 0 36px;
 }
 
 .infos .titles .size_title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .infos .titles .size_title span {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .infos .titles .size_title a {
-    font-size: 14px;
-    text-decoration: underline;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .infos .size {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-bottom: 28px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
 }
 
 .infos .size li {
-    width: 92px;
-    height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #111;
-    cursor: pointer;
-    background-color: transparent;
-    transition: all 0.3s;
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #111;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
 }
 
 .infos .size li:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .infos .btn {
-    width: 100%;
+  width: 100%;
 }
 
 /* section1 */
 .detail .s1 {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .detail .s1 .item {
-    flex: 1;
-    height: 560px;
-    background-color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 1;
+  height: 560px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail .s1 .item:first-child {
-    display: block;
-    background-color: transparent;
+  display: block;
+  background-color: transparent;
 }
 
 .detail .s1 .item:first-child .text_box {
-    padding: 90px 0;
+  padding: 90px 0;
+}
+
+.detail .s1 .item:first-child .text_box_m {
+  display: none;
 }
 
 .detail .s1 .item:first-child .text_box h3 {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 70px;
 }
 
 .detail .s1 .item:first-child .text_box p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 /* section2 */
 .detail .s2 .section_items .item .thumb {
+  width: 280px;
+  height: 280px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.detail .s2 .section_items .item .titles {
+  padding: 20px 0;
+}
+
+.detail .s2 .section_items .item .titles h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.detail .s2 .section_items .item .titles p {
+  font-size: 14px;
+}
+
+/* ==========Mobile========== */
+@media (max-width: 768px) {
+  .product {
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .product .slide_container {
+    width: 100%;
+    height: 343px;
+  }
+
+  .product .slide_container .item {
+    width: 100%;
+    height: 343px;
+  }
+
+  .product .slide_container .item img {
+    width: 80%;
+  }
+
+  .product .slide_container .arrows {
+    display: none;
+  }
+
+  /* size */
+  .infos {
+    width: 100%;
+  }
+
+  .infos .titles {
+    margin-bottom: 10px;
+  }
+
+  .infos .titles h3 {
+    font-size: 24px;
+    margin: 6px 0 10px;
+  }
+
+  .infos .titles .size_title {
+    font-size: 14px;
+  }
+
+  .infos .titles .size_title a {
+    font-size: 12px;
+  }
+
+  .infos .size {
+    gap: 15px 22px;
+    justify-content: space-between;
+  }
+
+  .infos .size li {
+    height: 60px;
+  }
+
+  /* section1 */
+  .detail .s1 {
+    flex-direction: column;
+  }
+
+  .detail .s1 .item {
+    flex: inherit;
+    height: 400px;
+  }
+
+  .detail .s1 .item:first-child {
+    height: initial;
+  }
+
+  .detail .s1 .item:first-child .text_box {
+    display: none;
+  }
+
+  .detail .s1 .item:first-child .text_box_m {
+    padding: 0 0 32px;
+    display: block;
+  }
+
+  .detail .s1 .item:first-child .text_box_m h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .detail .s1 .item:first-child .text_box_m p {
+    font-size: 14px;
+  }
+
+  /* section2 */
+  .detail .s2 .section_items {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+  }
+
+  .detail .s2 .section_items .detail_slide_02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170%;
+  }
+
+  .detail .s2 .section_items .item .thumb {
     width: 280px;
     height: 280px;
     background-color: #ddd;
@@ -139,17 +271,18 @@
     justify-content: center;
     font-weight: 700;
     font-size: 36px;
-}
+  }
 
-.detail .s2 .section_items .item .titles {
+  .detail .s2 .section_items .item .titles {
     padding: 20px 0;
-}
+  }
 
-.detail .s2 .section_items .item .titles h4 {
+  .detail .s2 .section_items .item .titles h4 {
     font-weight: 700;
     margin-bottom: 10px;
-}
+  }
 
-.detail .s2 .section_items .item .titles p {
+  .detail .s2 .section_items .item .titles p {
     font-size: 14px;
+  }
 }
